@@ -1,5 +1,7 @@
 # okimurak.github.io
 
+![Publish Github Page](https://github.com/okimurak/okimurak.github.io/workflows/Publish%20Github%20Page/badge.svg)
+
 <https://okimurak.github.io> のソース
 
 [Hugo](https://gohugo.io/) とテンプレートを使い、GithubPages でホスティングしています
