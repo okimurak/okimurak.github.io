@@ -38,6 +38,12 @@ docker-compose up -d
 
 - [Anatole | Hugo Themes](https://themes.gohugo.io/anatole/)
 
+## Github Actions
+
+Github Action を使って Github Pages にデプロイを行っている
+
+- [こちら](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key)を参考に、リポジトリの Secret に`ACTIONS_DEPLOY_KEY` を追加する
+
 ## Reference
 
 - https://github.com/iganari/iganari.github.io
