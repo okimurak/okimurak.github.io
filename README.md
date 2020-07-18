@@ -34,7 +34,7 @@ docker-compose up -d
 
 ## Theme
 
-`./theme`　以下に配置して使う
+`./themes`　以下に配置して使う
 
 - [Anatole | Hugo Themes](https://themes.gohugo.io/anatole/)
 
