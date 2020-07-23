@@ -19,7 +19,6 @@ jobs:
       - name: Build
         run: |
           git clone https://github.com/lxndrblz/anatole.git themes/anatole
-          cd themes/anatole; git checkout 43c00a38685cc0f10f083a0a150c5ee65c2fb84a;  cd ../../
           hugo --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
