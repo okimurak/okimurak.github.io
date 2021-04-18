@@ -27,6 +27,11 @@ customJs = []
 mainSections = ["blog"]
 images = ["images/site-feature-image.png"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 ## Math settings
 [params.math]
 enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
@@ -34,17 +39,17 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 [[params.socialIcons]]
-icon = "fa-twitter"
+icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/okky_eng"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/okimurak/"
 
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-linkedin"
 title = "LinkedIn"
 url = "https://www.linkedin.com/in/okimurak"
 
