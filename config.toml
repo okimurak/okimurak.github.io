@@ -27,6 +27,11 @@ customJs = []
 mainSections = ["blog"]
 images = ["images/site-feature-image.png"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 ## Math settings
 [params.math]
 enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
