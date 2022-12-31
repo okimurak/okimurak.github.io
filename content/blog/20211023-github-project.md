@@ -186,4 +186,4 @@ API と Github Actions を使って Project の管理を自動化できます。
 
 今後も Github Project の動向に注目です。
 
-触ってみたい方は、Gibhub Project の Beta に参加して [プロジェクト（ベータ）のクイックスタート - GitHub Docs](https://docs.github.com/ja/issues/trying-out-the-new-projects-experience/quickstart) を参考にして試してみるとよいと思います。
+触ってみたい方は、Github Project の Beta に参加して [プロジェクト（ベータ）のクイックスタート - GitHub Docs](https://docs.github.com/ja/issues/trying-out-the-new-projects-experience/quickstart) を参考にして試してみるとよいと思います。
