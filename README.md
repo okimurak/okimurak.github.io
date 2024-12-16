@@ -17,7 +17,6 @@
 
 ```bash
 git clone https://github.com/okimurak/okimurak.github.io
-docker-compose up -d
 ```
 
 - Theme を Clone
@@ -29,7 +28,7 @@ git clone https://github.com/lxndrblz/anatole.git themes/anatole
 - Docker compose で起動
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 - ローカル(http:/localhost:1313)にブラウザからアクセス
