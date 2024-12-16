@@ -1,8 +1,6 @@
-version: "3.3"
-
 services:
   web:
-    image: klakegg/hugo:0.82.0
+    image: hugomods/hugo:std-go-0.139.5
     container_name: hugo
     ports:
       - "1313:1313"
