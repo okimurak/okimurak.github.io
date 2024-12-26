@@ -1,0 +1,23 @@
+on:
+  pull_request:
+    branches-ignore:
+      - 'main'
+      - 'gh-pages'
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.139.4"
+      - name: Build
+        run: |
+          git clone https://github.com/lxndrblz/anatole.git themes/anatole
+          hugo --minify
