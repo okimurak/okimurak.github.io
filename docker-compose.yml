@@ -1,6 +1,6 @@
 services:
   web:
-    image: hugomods/hugo:std-go-0.139.4
+    image: hugomods/hugo:std-dart-sass-go-0.149.1
     container_name: hugo
     ports:
       - "1313:1313"
