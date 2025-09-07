@@ -11,8 +11,8 @@ tags = [
 新しい [GitHub Project](https://github.com/features/issues) がかっこいいと思って beta に申し込んでいたのですが
 先日参加ができたので、色々触ってみました。
 
-<center><blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">お、Github Project Beta を試せそう！ <a href="https://t.co/wikqtnbsW3">pic.twitter.com/wikqtnbsW3</a></p>&mdash; おっきー (@okky_eng) <a href="https://twitter.com/okky_eng/status/1451182925475504148?ref_src=twsrc%5Etfw">October 21, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+{{< x user="okky_eng" id="1451182925475504148" >}}
+
 
 ## ドキュメント
 
