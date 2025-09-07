@@ -9,7 +9,15 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-24.04
+    env:
+      DART_SASS_VERSION: 1.92.0
     steps:
+      - name: Install Dart Sass
+        run: |
+          wget -O ${{ runner.temp }}/dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          tar -xf ${{ runner.temp }}/dart-sass.tar.gz --directory ${{ runner.temp }}
+          mv ${{ runner.temp }}/dart-sass/ /usr/local/bin
+          echo "/usr/local/bin/dart-sass" >> $GITHUB_PATH
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
