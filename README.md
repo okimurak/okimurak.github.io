@@ -16,13 +16,13 @@
 - Repository を Clone
 
 ```bash
-git clone https://github.com/okimurak/okimurak.github.io
+git clone https://github.com/okimurak/okimurak.github.io --recursive
 ```
 
-- Theme を Clone
+- Theme を Update
 
 ```bash
-git clone https://github.com/lxndrblz/anatole.git themes/anatole
+git submodule update --remote --merge
 ```
 
 - Docker compose で起動
@@ -35,7 +35,7 @@ docker compose up -d
 
 ## Theme
 
-`./themes`　以下に配置して使う
+`./themes`　以下に配置して使う。 git submodule として使用する。
 
 - [Anatole | Hugo Themes](https://themes.gohugo.io/anatole/)
 
@@ -43,7 +43,7 @@ docker compose up -d
 
 Github Action を使って Github Pages にデプロイを行っている
 
-- [こちら](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key)を参考に、リポジトリの Secret に`ACTIONS_DEPLOY_KEY` を追加する
+- [こちら](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key)を参考に、リポジトリの Secret に `ACTIONS_DEPLOY_KEY` を追加する
 
 ## Reference
 
