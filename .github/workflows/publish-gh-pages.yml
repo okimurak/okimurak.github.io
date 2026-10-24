@@ -17,7 +17,7 @@ jobs:
           tar -xf ${{ runner.temp }}/dart-sass.tar.gz --directory ${{ runner.temp }}
           mv ${{ runner.temp }}/dart-sass/ /usr/local/bin
           echo "/usr/local/bin/dart-sass" >> $GITHUB_PATH
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           submodules: true
