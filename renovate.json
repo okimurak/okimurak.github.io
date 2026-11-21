@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "mode": "full",
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 9am on saturday"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "non-major dependencies"
+    },
+    {
+      "description": "Wait 3 days after a container image or GitHub tag release to lower the risk of supply chain attacks. GHCR has no release timestamp, so raise those updates without the wait",
+      "matchDatasources": ["docker", "github-tags"],
+      "minimumReleaseAge": "3 days",
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    }
+  ]
+}
