@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     env:
       DART_SASS_VERSION: 1.92.0
     steps:
